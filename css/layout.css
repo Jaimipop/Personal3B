@@ -16,6 +16,7 @@
     --padding-sessao: 80px;
     --gap-padrao: 25px;
     --borda-arredondada: 12px;
+    --altura-menu: 65px;
 }
 
 /*background: linear-gradient(135deg, var(--bg-cor-escura), var(--cor-destaque));*/
@@ -99,7 +100,10 @@ body {
 }
 
 .page-title-full {
-    height: 100vh;
+    height: calc(100vh - var(--altura-menu));
+    background-image: url(../img/gothamLogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page-title h1 {
@@ -262,7 +266,12 @@ body {
 /*Responsividade (adaptar as telas)*/
 
 /*Desktop ou TV*/
-
+@media (min-width: 1200px){
+    .sessao{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
 /*Tablet até 1024px*/
 @media (max-width: 1024px) {
     main {
@@ -270,6 +279,7 @@ body {
     }
 
     .menu {
+        height: var(--altura-menu);
         flex-direction: column;
         justify-content: flex-start;
         width: 80px;
