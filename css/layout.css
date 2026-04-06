@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
     --cor-branco: rgb(245, 245, 245);
     --cor-amarelo: rgb(224, 226, 81);
@@ -9,7 +10,7 @@
     --bg-cor-sec: #26a57d;
     --cor-destaque: #22c55e;
     --cor-destaque-sec: #16a34a;
-    --fonte-padrao: 'Times New Roman', Times, serif;
+    --fonte-padrao: "Nunito", sans-serif;
     --fonte-menu-size: 16px;
     --padding-cartao: 17px;
     --padding-padrao: 40px;
