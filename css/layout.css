@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
     --cor-branco: rgb(245, 245, 245);
     --cor-amarelo: rgb(224, 226, 81);
@@ -267,12 +268,13 @@ body {
 /*Responsividade (adaptar as telas)*/
 
 /*Desktop ou TV*/
-@media (min-width: 1200px){
-    .sessao{
+@media (min-width: 1200px) {
+    .sessao {
         width: 1200px;
         margin: 0 auto;
     }
 }
+
 /*Tablet até 1024px*/
 @media (max-width: 1024px) {
     main {
@@ -344,10 +346,12 @@ body {
     .menu ul {
         flex-direction: row;
     }
-    .menu li a{
+
+    .menu li a {
         text-shadow: 0 2px 40px rgba(200, 200, 200, 0.2);
     }
-    body{
+
+    body {
         margin-bottom: 100px;
     }
 
